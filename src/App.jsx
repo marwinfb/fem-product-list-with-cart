@@ -5,7 +5,7 @@ import DessertList from "./components/DessertList"
 function App() {
 
   return (
-    <Page>
+    <Page title="Frontend Mentor | Product list with cart">
       <DessertList />
     </Page>
   )
