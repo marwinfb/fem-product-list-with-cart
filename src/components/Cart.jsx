@@ -18,7 +18,7 @@ function Cart() {
         <CartItem />
       </div>
 
-      <hr class="h-px mb-6 bg-primary-rose-100 border-0"></hr>
+      <hr className="h-px mb-6 bg-primary-rose-100 border-0"></hr>
 
       <div className="space-y-6">
         <CartTotal />

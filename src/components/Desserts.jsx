@@ -10,7 +10,7 @@ function Desserts() {
             image={item.image}
             name={item.name}
             category={item.category}
-            price={item.price.toFixed(2)}
+            price={item.price}
         />
         ))}
     </section>
