@@ -1,11 +1,10 @@
-import img from "../assets/images/image-baklava-desktop.jpg"
 
-function ResponsiveImage({ mobile, tablet, desktop, alt }) {
+function ResponsiveImage({ image, alt }) {
   return (
     <picture>
-      {/* <source media="(min-width: 1024px)" srcSet={desktop} />
-      <source media="(min-width: 768px)" srcSet={tablet} /> */}
-      <img src={img} alt={alt} className="w-full h-auto hover:scale-110 transition" loading="lazy"/>
+      <source media="(min-width: 1024px)" srcSet={image.desktop} />
+      <source media="(min-width: 768px)" srcSet={image.tablet} />
+      <img src={image.mobile} alt={alt} className="w-full h-auto hover:scale-110 transition-transform" loading="lazy"/>
     </picture>
   )
 }
