@@ -1,6 +1,6 @@
 import icon_remove_item from "../assets/images/icon-remove-item.svg";
 
-function CartItem() {
+function CartItem({name}) {
   return (
     <div className="flex items-center justify-between py-4">
         <div className="flex flex-col gap-y-2">
